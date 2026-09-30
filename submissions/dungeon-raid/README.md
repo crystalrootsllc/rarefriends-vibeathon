@@ -19,10 +19,11 @@ You play as your own Generations NFT with its original character artwork. Friend
 [https://github.com/crystalrootsllc/dungeon-raid](https://github.com/crystalrootsllc/dungeon-raid) · FriendSDK **v0.1.2** (includes `patches/owned-friends.ts`)
 
 **Playable demo / how to run**
-- **GitHub Pages:** https://crystalrootsllc.github.io/dungeon-raid-preview/
-- Tunnel: https://forty-wed-truly-cancelled.trycloudflare.com
+- **GitHub Pages (primary):** https://crystalrootsllc.github.io/dungeon-raid-preview/
+- Tunnel mirror: https://forty-wed-truly-cancelled.trycloudflare.com
 
 Wallet: Robinhood **4663** + hardwired Generations NFT **gen ≥ 1**. Economy simulated.
+
 
 **Judges without a wallet / Friend load issues**
 Use `friendsdk test` mock wallet, or a wallet in-app browser on 4663. Stock SDK discovery can fail on the public RPC without the included owned-friends patch (chunked owner-filtered logs).
