@@ -37,7 +37,9 @@ Simulated. Optional Max Shield Bar = 5 RF → 1 Moth Scale (1 RF). Net 4 RF.
 friendsdk check, test @960/@390, playthrough bots, phone layout audits.
 
 **Known limitations**
-Local/session leaderboard; simulated economy; owned-friends patch needed for stock SDK + public RPC.
+- **Leaderboard is LOCAL / session-only.** FriendSDK's opaque sandbox blocks `localStorage`, so scores are kept in memory for this preview session only and clear on reload. They are never uploaded. A signed shared top-100 is planned post-submit (not in this MVP).
+- Economy is simulated only.
+- Owned-friends patch needed for stock SDK + public Robinhood RPC.
 
 **Credits**
 FriendSDK v0.1.2 runtime/sprites/sounds. Boss/dungeon/combat original. No emoji.
